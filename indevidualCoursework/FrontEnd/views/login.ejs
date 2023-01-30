@@ -1,0 +1,16 @@
+<div>
+
+    <input type="text" @keyup.enter="login()" id="loginUsername" placeholder="Username">
+    <input type="password" @keyup.enter="login()" id="loginPassword" placeholder="Password">
+
+    <button  @click="login()">
+        Login
+    </button>
+
+    <button  @click="register()">
+        Register
+    </button>
+
+    <p class="error" id="logInError">
+    </p>
+</div>

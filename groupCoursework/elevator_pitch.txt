@@ -1,0 +1,9 @@
+As companies start to scale up, manual solutions for managing and scheduling employees create large overheads for managers and introduce the potential for human errors. This can result in inadequate information or slow updates to and from employees.
+
+Shiftable frees managers up to focus on profit generating aspects of business, by providing a cloud based, API driven self service portal. This solution reduces the number of errors in the system by allowing for, and incorporating, more up-to-date information from employees. Employees and managers will also benefit from Shiftable by streamlining request processing and updating information. This increases access to employment information, providing more freedom and flexibility.
+ 
+Through market research, we found that existing solutions for large companies were bespoke and expensive to deploy. Small companies often cannot afford these types of solutions, relying on existing affordable solutions which lack features and customization.
+
+Our product focuses on scalability and access to information. We aim to leverage the benefits of the cloud to its full potential; data availability, API driven events, easy deployment, scalability and high uptime.
+
+We will offer the service as a subscription for small companies and negotiate a contract for larger companies based on their size and needs. Therefore, our market potential is any company that has a need for organising employee’s time. This means we’ll be targeting a large proportion of the market.

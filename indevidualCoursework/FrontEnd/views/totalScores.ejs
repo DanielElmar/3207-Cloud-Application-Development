@@ -1,0 +1,11 @@
+<div>
+
+    <h2>Scores So Far</h2>
+    <h4 id="lastRoundPrompt"></h4>
+
+
+    <h3  v-for="[username, obj] of new Map(Object.entries(players))">{{username}} has a score of: {{obj.ScoreThisSession}}</h3>
+
+
+
+</div>

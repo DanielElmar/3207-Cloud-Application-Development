@@ -1,0 +1,22 @@
+
+<h3>Waiting For Players</h3>
+
+
+
+<div class="flex-space-evenly">
+    <div class="playerList">
+        <h3>Player List</h3>
+        <ul class="stripped" id="playerList">
+            <li v-for="player in players">{{player.username}}</li>
+        </ul>
+    </div>
+
+    <div class="playerList">
+        <h3>Audience List</h3>
+        <ul class="stripped" id="audienceList">
+            <li  v-for="user in audience">{{user.username}}</li>
+        </ul>
+    </div>
+
+
+</div>

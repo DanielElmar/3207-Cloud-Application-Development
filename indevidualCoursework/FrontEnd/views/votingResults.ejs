@@ -1,0 +1,36 @@
+<h2>Voting Results!!!</h2>
+
+<div  v-for="[key, obj] of voteResults">
+
+
+
+    <h3>Prompt was: {{obj.prompt}}</h3>
+
+    <div class="flex-space-evenly">
+
+        <div>
+            <h3 id="leftPromptAnswer">{{obj.answer1}}</h3>
+            <p>Answer By - {{obj.answerOwner1}}</p>
+
+            <h5>Votes:</h5>
+            <ul>
+                <li v-for="voter in obj.voters1">{{voter}}</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 id="rightPromptAnswer">{{obj.answer2}}</h3>
+            <p>Answer By - {{obj.answerOwner2}}</p>
+
+            <h5>Votes:</h5>
+            <ul>
+                <li v-for="voter in obj.voters2">{{voter}}</li>
+            </ul>
+
+
+        </div>
+
+
+    </div>
+
+</div>

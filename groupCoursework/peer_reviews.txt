@@ -1,0 +1,34 @@
+Peer review submission from 2022/2023 team F
+
+$1 - Team E “SotonCode”
+This project’s concept had an appropriate market that would enhance learning and had a good level of complexity and extensibility. It had well thought out design decisions with good justifications and use cases for each, as well as including awareness for potential security vulnerabilities. The implementation also had good justification for the tools and services used. This project is first because there was good justification at each step and the final product felt usable without any drawbacks such as security.
+
+$2 - Team A “BOUT”
+The concept of this project had a clear audience and it was fit to a specific, tangible problem that would enhance tournaments. The design had some justification with good extensibility and had thoughts about ease of use of the application. The implementation had good justification of the tools and services used, and had good use of cloud technologies for real-time information. It was placed second as although the final product was professional and had a good range of features to make it useful, it had some security issues which make it less desirable compared to SotonCode.
+
+$3 - Team J “Tradepal”
+This project had a complex concept which would solve a real world problem, but the team seemed confused as to which problem they were solving. It contained many ambitious features in the design with some justification and thoughts about security. The implementation had good justification of the tools and services used, and made good use of libraries and cloud technologies to help with the complex project. Although the idea was reduced the outcome was still a usable final product, albeit lacking some features. This project was ranked third because although the final product seemed well implemented overall, the parts of the project which solved the problem seemed somewhat lacking.
+
+$4 - Team I “Eventverse”
+The concept seemed useful however the justification seemed forced and seemed to lack research. There was some justification for the design, however the design wasn’t very detailed. The implementation was extremely detailed and had good justification for the tools and services used. The project also made good use of libraries and had thoughts about security. The project was ranked fourth because although the implementation was good, the design was lacking compared to Tradepal’s.
+
+$5 - Team H “Timeline”
+The concept was simple but seemed like a fun way to enhance learning and had some extensibility. The design had thoughts about security and seemed to have thoughts about the user experience, however certain areas seemed less user friendly. The implementation had a good user interface and functionality however certain parts of the product were suboptimal (creating new decks) and there is a possibility of users tampering with the data. This project was ranked below Eventverse because it didn’t feel as usable, especially considering having to use JSON to create new desks.
+
+$6 - Team B “CV Library”
+The concept seemed to tackle a real problem, albeit by having a simple solution. The design had a good explanation but somewhat lacking justification and security. The implementation was successful in implementing the basic features and did solve the problem, however it lacked depth that would make the product more functional. This project was ranked below Timeline because the final product seemed very simple and didn’t seem to attempt to add some extra functionality, even if it would have been rudimentary (such as Timeline’s creating new deck).
+
+$7 - Team C “Southbound”
+The concept took an existing board game, tweaked it to a Southampton scenario and then created an online version for it. The design of the game was mostly copied from Monopoly however it lacked justification or explanation for features about the application they would implement. There was a good explanation of the tools and services used, however they lacked clear justification. The implementation was functional however seemed to lack many features which would greatly enhance the user experience (such as showing who’s turn it was). CV library seemed useful and usable although simple whereas this project the implementation of the UI was usable but underwhelming and possibly boring to use, which led to it being ranked below.
+
+$8 - Team D “TalkQR”
+The concept was interesting but seemed flawed in many ways and their suggested use cases can be easily picked apart. The design has a good explanation of how the features could be used although they are lacking justification. The implementation has good justification for the tools and services used and contains basic functionality, managing to implement part of their concept. This project is below Southbound because it wasn’t able to implement the main parts of the concept, such as group chats, whereas Southbound was able to.
+
+$9 - Team F “PixelVerse”
+The concept expanded on existing applications however the problem and solution seemed forced. The design was simple and the justification seemed more based around performance of computers than creating a good experience for users. There was little to no justification of the tools and services used, however there was lots of justification for the libraries used. This project is below than TalkQR because it seemed to focus on fast rendering instead of creating a good application, whereas TalkQR was able to implement useful features and focus on their concept. 
+
+$10 - Team G “MyClub”
+The concept was simple with seemingly limited extensibility, and didn’t seem to expand much upon other social media.The design had simple explanations and there was limited justification for the tools and services used. The implementation had a focus on the performance of the app, which seems irrelevant to the concept and seems to have taken away from the team implementing useful features and completing the prototype. There seems to be lots of code, however very limited functionality. MyClub is therefore ranked below PixelVerse because it was a simpler project and seemed to only deliver more than basic functionality.
+
+$11 - Team K “DEXF”
+The concept was somewhat simple and felt like the group left a lot of functionality off the table. The design seemed simple and there was little explanation and no justification for the tools and services used. The implementation fell short of their concept, leading to a final product that seemed to not even provide the bare minimum functionality (comparing between exchanges). Therefore, this project was ranked last as the final product lacked any depth other than a static site which fetches the current price of a cryptocurrency from a pre-set exchange.

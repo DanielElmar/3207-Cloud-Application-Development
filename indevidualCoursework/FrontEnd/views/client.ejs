@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+    <%- include('header'); -%>
+
+    <h2 class="title">ECS Example Game</h2>
+
+    <div id="game">
+        <div v-if="connected">
+            <div v-if="loggedIn">
+
+                <div v-if="isAdmin">
+                    <%- include('admin'); -%>
+                </div>
+
+                <div v-if="amAudience">
+                    <h3>You Are An Audience Member :)</h3>
+                </div>
+
+                <div v-if="appState.gameState == 0">
+                    <%- include('playerLists'); -%>
+                </div>
+
+                <div v-if="appState.gameState == 1">
+
+                    <div v-if="waitingForNextPhase">
+                        <%- include('waitingForNextPhase'); -%>
+                    </div>
+
+                    <div v-else>
+                        <div v-if="appState.roundState == 1">
+                            <%- include('promptCollection'); -%>
+                        </div>
+
+                        <div v-if="appState.roundState == 2 && !amAudience">
+                            <%- include('answerSubmission'); -%>
+                        </div>
+
+                        <div v-if="appState.roundState == 2 && amAudience">
+                            <h3>Waiting For Players To Submit Their Answers :)</h3>
+                        </div>
+
+                        <div v-if="appState.roundState == 3">
+                            <%- include('voting'); -%>
+                        </div>
+
+                        <div v-if="appState.roundState == 4">
+                            <%- include('votingResults'); -%>
+                        </div>
+
+                        <div v-if="appState.roundState == 5">
+                            <%- include('totalScores'); -%>
+                        </div>
+                    </div>
+                </div>
+
+                <%- include('chat'); -%>
+
+            </div>
+            <div v-else>
+                <%- include('login'); -%>
+            </div>
+
+        </div>
+        <div v-else>
+            <p>Connecting...</p>
+        </div>
+    </div>
+
+    <%- include('footer'); -%>
+
+</html>

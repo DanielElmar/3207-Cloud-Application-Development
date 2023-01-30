@@ -1,0 +1,16 @@
+<div>
+    <h2>Please Enter Your Answer (make it funny...)</h2>
+
+    <h4 id="prompt"></h4>
+    <p id="promptOwner"></p>
+
+
+    <input type="text" id="answerSubmit" @keyup.enter="submitAnswer()" value="" placeholder="Answer" style="width: 500px">
+
+    <p class="error" id="answerSubmitError"></p>
+
+    <button  @click="submitAnswer()">
+        Submit Answer
+    </button>
+
+</div>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+    <%- include('header'); -%>
+
+    <h2 class="title">ECS Example Game</h2>
+
+    <div id="game">
+        <div v-if="connected">
+
+            <h5>Admin Is {{adminIs}}</h5>
+
+            <div v-if="appState.gameState == 0">
+                <%- include('playerLists'); -%>
+            </div>
+
+            <div v-if="appState.gameState == 1">
+
+                <div v-if="waitingForNextPhase">
+                    <%- include('waitingForNextPhase'); -%>
+                </div>
+
+                <div v-else>
+                    <div v-if="appState.roundState == 1">
+                        <h1> Please Enter A Prompt On Your Devices :)</h1>
+                        <h3 id="promptNumUpdate"></h3>
+                    </div>
+
+
+                    <div v-if="appState.roundState == 2 ">
+                        <h1>Waiting For Players To Submit Their Answers :)</h1>
+                        <h3 id="answerNumUpdate"></h3>
+                    </div>
+
+                    <div v-if="appState.roundState == 3">
+                        <h1> Use Your Devices To Vote On The Funniest Prompt Answer!!</h1>
+                        <h3 id="votesNumUpdate"></h3>
+                    </div>
+
+                    <div v-if="appState.roundState == 4">
+                        <%- include('votingResults'); -%>
+                    </div>
+
+                    <div v-if="appState.roundState == 5">
+                        <%- include('totalScores'); -%>
+                    </div>
+                </div>
+            </div>
+
+
+            <h4>Chat</h4>
+            <ul id="chat" class="stripped">
+                <li v-for="message in messages">{{message}}</li>
+            </ul>
+
+        </div>
+
+        <div v-else>
+            <p>Connecting...</p>
+        </div>
+    </div>
+
+    <%- include('displayFooter'); -%>
+
+</html>

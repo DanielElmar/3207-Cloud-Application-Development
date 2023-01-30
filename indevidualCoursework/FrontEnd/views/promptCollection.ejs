@@ -1,0 +1,13 @@
+<div>
+    <h2>Please Enter Your Prompt (make it funny...)</h2>
+
+    <input type="text" id="promptSubmit" @keyup.enter="submitPrompt()" placeholder="Prompt" value="" style="width: 500px">
+
+    <p class="error" id="promptSubmitError">
+    </p>
+
+    <button  @click="submitPrompt()">
+        Submit Prompt
+    </button>
+
+</div>

@@ -1,0 +1,31 @@
+
+<h2>Cast Your Vote!!!</h2>
+
+<h2 id="promptToVote">Waiting For Prompts</h2>
+<h4 id="promptToVoteOwner"></h4>
+
+<div>
+
+    <div class="flex-space-evenly">
+        <div>
+            <h3 id="leftPromptAnswer"></h3>
+
+            <input type="radio" id="leftVote" name="funnierAnswer" value="leftPrompt">
+            <label for="leftVote">Left Answer</label><br>
+        </div>
+
+        <div>
+            <h3 id="rightPromptAnswer"></h3>
+
+            <input type="radio" id="rightVote" name="funnierAnswer" value="rightPrompt">
+            <label for="rightVote">Right Answer</label><br>
+        </div>
+    </div>
+
+    <p class="error" id="voteSubmitError"></p>
+
+    <button  @click="submitVote()">
+        Submit Vote
+    </button>
+
+</div>

@@ -1,0 +1,22 @@
+Timetable: [
+	timetable_read
+]
+
+Shifts: [
+	shift_create,
+	shift_update,
+	shift_delete,
+	shift_reassign,
+	shift_trade
+]
+
+Employees: [
+	employee_read,
+	employee_create,
+	employee_update,
+	employee_delete
+]
+
+Availability: [
+	avail_read
+]
